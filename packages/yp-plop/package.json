@@ -1,0 +1,48 @@
+{
+  "name": "yp-plop",
+  "version": "1.0.14",
+  "description": "",
+  "main": "index.js",
+  "author": "zhouxishun",
+  "license": "MIT",
+  "bin": {
+    "yp-plop": "./bin/yp-plop.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "fs-extra": "^9.1.0",
+    "inquirer": "^7.3.3",
+    "minimist": "^1.2.5",
+    "node-plop": "^0.26.2",
+    "ora": "^5.3.0",
+    "yp-utils": "^1.0.10"
+  },
+  "engines": {
+    "node": "^10.12.0 || >=12.0.0"
+  },
+  "publishConfig": {
+    "registry": "http://nexus.ypsx-internal.com/repository/npm-private/"
+  },
+  "files": [
+    "bin",
+    "config",
+    "lib",
+    "utils",
+    "generator",
+    "templates",
+    "plops",
+    "delete"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

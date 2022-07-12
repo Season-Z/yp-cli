@@ -1,0 +1,45 @@
+{
+  "name": "yp-cli",
+  "version": "1.0.14",
+  "description": "拉取并生成项目模板脚手架",
+  "bin": {
+    "yp-cli": "./bin/yp-cli.js"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^4.1.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^9.1.0",
+    "inquirer": "^7.3.3",
+    "minimist": "^1.2.5",
+    "ora": "^5.3.0",
+    "semver": "^7.3.4",
+    "yp-utils": "^1.0.10"
+  },
+  "files": [
+    "bin",
+    "config",
+    "lib",
+    "utils"
+  ],
+  "publishConfig": {
+    "registry": "http://nexus.ypsx-internal.com/repository/npm-private/"
+  },
+  "engines": {
+    "node": "^10.12.0 || >=12.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
